@@ -9,7 +9,7 @@ ______
 `seqToCanvas` is tool to convert text or hexadecimal sequence into canvas image.
 
 ## 2. Script
-- `seqToCanvas.js`
+- [`seqToCanvas.js`](seqToCanvas.js)
 
 ### Additional HTML interface
 - `index.html`
