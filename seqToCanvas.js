@@ -6,7 +6,7 @@
 *	This software is released under the MIT License.
 *	See LICENSE or http://opensource.org/licenses/mit-license.php
 *===================================================================
-* Tool to convert text or hexadecimal sequence into canvas image.
+* Tool to convert text or hexadecimal sequence into canvas image as generative art.
 *
 * === Synopsis ===
 * - `seqToCanvas(srcCanvasId,seq);`
