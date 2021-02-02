@@ -6,7 +6,8 @@ GitHub: https://github.com/YujiSODE/seqToCanvas
 >See LICENSE or http://opensource.org/licenses/mit-license.php  
 ______
 ## 1. Description
-`seqToCanvas` is tool to convert text or hexadecimal sequence into canvas image.
+`seqToCanvas` is tool to convert text or hexadecimal sequence into canvas image.  
+This tool describes another aspect of text.
 
 ## 2. Script
 - [`seqToCanvas.js`](seqToCanvas.js)
