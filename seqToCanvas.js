@@ -456,7 +456,6 @@ function seqToCanvas(srcCanvasId,seq){
 		ctx.strokeStyle=`#ff${e1}${e2}${e3}${e4}`;
 		ctx.lineWidth=1.0;
 		//
-		ctx.moveTo(X0,Y0);
 		ctx.rect(E1*dW,E2*dH,E3*dW,E4*dH);
 		//
 		X0=(E1+E3*0.5)*dW;
