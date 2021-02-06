@@ -5,6 +5,7 @@ GitHub: https://github.com/YujiSODE/seqToCanvas
 >This software is released under the MIT License.  
 >See LICENSE or http://opensource.org/licenses/mit-license.php  
 ______
+![img20210206_seqToCanvas](https://user-images.githubusercontent.com/19919184/107120194-81cac280-68cf-11eb-9a7c-37eea0ab5645.png)
 ## 1. Description
 `seqToCanvas` is tool to convert text or hexadecimal sequence into canvas image.  
 This tool describes another aspect of text.
