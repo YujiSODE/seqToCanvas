@@ -2,6 +2,9 @@
 ## [Unreleased]
 
 ## [0.11 beta] - 2021-02-06
+## Added
+- [`seqToCanvas_icon.png`]: icon for `index.html`
+
 ## Fixed and Added
 - [`index.html`] lines 2-8:  
 
