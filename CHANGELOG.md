@@ -2,6 +2,10 @@
 ## [Unreleased]
 
 ## [0.11 beta] - 2021-02-06
+## Added
+- [`README.md`] line 8:
+  >`![img20210206_seqToCanvas](https://user-images.githubusercontent.com/19919184/107120194-81cac280-68cf-11eb-9a7c-37eea0ab5645.png)`
+
 ## Changed
 - [`README.md`] line 1:
   >` # ![seqToCanvas_js_v011beta_16x16](seqToCanvas_icon.png)seqToCanvas`
