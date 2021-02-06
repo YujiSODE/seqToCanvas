@@ -1,4 +1,4 @@
-# seqToCanvas
+# ![seqToCanvas_js_v011beta_16x16](seqToCanvas_icon.png)seqToCanvas
 Tool to convert text or hexadecimal sequence into canvas image as generative art.  
 GitHub: https://github.com/YujiSODE/seqToCanvas  
 >Copyright (c) 2021 Yuji SODE \<yuji.sode@gmail.com\>  
