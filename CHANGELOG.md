@@ -1,6 +1,7 @@
 # Change Log 
 ## [Unreleased]
 
+## Released: [0.11 beta] - 2021-02-07
 ## [0.11 beta] - 2021-02-06
 ## Added
 - [`README.md`] line 8:
