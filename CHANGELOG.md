@@ -1,6 +1,11 @@
 # Change Log 
 ## [Unreleased]
 
+## [1.0] - 2021-02-08
+## Added
+- [`README.md`] line 4:
+  >`Wiki: https://github.com/YujiSODE/seqToCanvas/wiki  `
+
 ## Released: [0.11 beta] - 2021-02-07
 ## [0.11 beta] - 2021-02-06
 ## Added
