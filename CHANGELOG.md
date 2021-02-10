@@ -1,6 +1,7 @@
 # Change Log 
 ## [Unreleased]
 
+## Released: [1.0] - 2021-02-10
 ## [1.0] - 2021-02-09
 ## Changed
 - [`index.html`] lines 31-32:
