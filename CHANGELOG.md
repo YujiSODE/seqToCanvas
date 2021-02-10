@@ -1,6 +1,20 @@
 # Change Log 
 ## [Unreleased]
 
+## Released: [1.0] - 2021-02-10
+## [1.0] - 2021-02-09
+## Changed
+- [`index.html`] lines 31-32:
+
+  >		This tool describes another aspect of text.<br>
+  >		<a href='https://github.com/YujiSODE/seqToCanvas/wiki'>Examples</a></p>
+
+
+## [1.0] - 2021-02-08
+## Added
+- [`README.md`] line 4:
+  >`Wiki: https://github.com/YujiSODE/seqToCanvas/wiki  `
+
 ## Released: [0.11 beta] - 2021-02-07
 ## [0.11 beta] - 2021-02-06
 ## Added
