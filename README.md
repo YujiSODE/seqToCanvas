@@ -13,7 +13,7 @@ This tool describes another aspect of text.
 
 ### Algorithm
 Main algorithm is composed of 16 internal methods to draw on a canvas element.  
-These methods take the form of function: `f(e1, e2, e3, e4)` where `e1, e2, e3` and `e4` are single hexadecimal digits.
+These methods take the form of function: `f(e1, e2, e3, e4)` where `f, e1, e2, e3` and `e4` are single hexadecimal digits.
 
 ## 2. Script
 - [`seqToCanvas.js`](seqToCanvas.js)
