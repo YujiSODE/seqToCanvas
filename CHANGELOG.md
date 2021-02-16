@@ -9,8 +9,6 @@
   >`These methods take the form of function: `f(e1, e2, e3, e4)` where `f, e1, e2, e3` and `e4` are single hexadecimal digits.`  
   >
 
-## 2. Script
-
 ## Released: [1.0] - 2021-02-10
 ## [1.0] - 2021-02-09
 ## Changed
