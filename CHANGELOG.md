@@ -2,6 +2,10 @@
 ## [Unreleased]
 
 ## [1.01] - 2021-02-18
+## Changed
+- [`README.md`] line 14:
+  >` ### [Algorithm](algorithm.md)`
+
 # Added
 - [`algorithm.md`]: description of algorithm
 
