@@ -25,7 +25,7 @@ Arc path patterns have two ways to draw as follows:
     It starts a new arc path.  
     
 2. **when there is opened path**  
-    If it satisfies `f0<f||!(f0%(f+1)!=0)` where `f0` is method which has started the current path,  
-    it closes the current path.
+    If it satisfies `f0<f||!(f0%(f+1)!=0)` where `f0` is method which has started the current path, it closes the current path.  
+    If it doesn't satisfies above condition, it adds a arc path to the current path.
 
 ___
