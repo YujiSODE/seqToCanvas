@@ -3,6 +3,7 @@
 
 ## [2.0 beta] - 2021-02-18
 # Added
+- [`index_arc.html`]: html interface for `seqToCanvas_arc.js`
 - [`seqToCanvas_arc.js`]: main script using arc
 
 ## Released: [1.01] - 2021-02-18
