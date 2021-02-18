@@ -1,6 +1,7 @@
 # Change Log 
 ## [Unreleased]
 
+## Released: [1.01] - 2021-02-18
 ## [1.01] - 2021-02-18
 ## Changed
 - [`README.md`] line 14:
