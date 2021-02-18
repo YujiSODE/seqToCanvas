@@ -21,5 +21,11 @@ A single arc path is defined as follows:
 3. radius: `r = (e1+e2+e3+e4)/8`
 
 Arc path patterns have two ways to draw as follows:  
+1. **when there is no path**  
+    It starts a new arc path.  
+    
+2. **when there is opened path**  
+    If it satisfies `f0<f||!(f0%(f+1)!=0)` where `f0` is method which has started the current path,  
+    it closes the current path.
 
 ___
