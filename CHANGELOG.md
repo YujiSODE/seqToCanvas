@@ -1,6 +1,10 @@
 # Change Log 
 ## [Unreleased]
 
+## [2.0 beta] - 2021-02-18
+# Added
+- [`seqToCanvas_arc.js`]: main script using arc
+
 ## Released: [1.01] - 2021-02-18
 ## [1.01] - 2021-02-18
 ## Changed
