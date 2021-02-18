@@ -2,6 +2,11 @@
 ## [Unreleased]
 
 ## [2.0 beta] - 2021-02-18
+# Fixed
+- [`algorithm.md`] lines 28-29:
+  >`     If it satisfies condition `f0<f||!(f0%(f+1)!=0)`, it closes the current path. `  
+  >`     `f` is the current method which is called after methhod `f0`.  `
+
 # Added
 - [`algorithm.md`] lines 14-31: description of `seqToCanvas_arc.js`
 - [`index_main_arc.js`]: html interface script for `seqToCanvas_arc.js`
