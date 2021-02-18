@@ -1,6 +1,15 @@
 # Change Log 
 ## [Unreleased]
 
+## Released: [1.01] - 2021-02-18
+## [1.01] - 2021-02-18
+## Changed
+- [`README.md`] line 14:
+  >` ### [Algorithm](algorithm.md)`
+
+# Added
+- [`algorithm.md`]: description of algorithm
+
 ## [1.01] - 2021-02-16
 ## Added
 - [`README.md`] lines 14-17:
