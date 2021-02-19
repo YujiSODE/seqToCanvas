@@ -23,9 +23,10 @@
 		<!-- -->
 		<script type='text/javascript' src='capturingCanvas_min.js'></script>
 		<script type='text/javascript' src='seqToCanvas.js'></script>
+		<script type='text/javascript' src='seqToCanvas_arc.js'></script>
 	</head>
 	<body>
-		<h1>seqToCanvas</h1>
+		<h1>seqToCanvas [type:<code id='seqToCanvas_type'>Line</code>]</h1>
 		<p>HTML interface for <code><a href='https://github.com/YujiSODE/seqToCanvas'>seqToCanvas</a></code>.<br>
 		Tool to convert text or hexadecimal sequence into canvas image as generative art.<br>
 		This tool describes another aspect of text.<br>
@@ -53,6 +54,8 @@
 		</div>
 		<!-- button to clear textarea -->
 		<button id='clearB'>Clear text</button>
+		<!-- button to change output type -->
+		<button id='changeB'>Change output type</button>
 		<!-- button to capture canvas image -->
 		<button id='captureB'>Capture image</button>
 		<!-- -->

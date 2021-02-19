@@ -8,8 +8,19 @@
 *===================================================================
 */
 (()=>{
-	var slf=window.document,cId='outputCvs',C=slf.getElementById(cId),
-		SS=capturingCanvas(C,slf.getElementById('downloadDiv')),text='';
+	let slf=window.document,cId='outputCvs',C=slf.getElementById(cId),
+		SS=capturingCanvas(C,slf.getElementById('downloadDiv')),text='',
+		outputType=slf.getElementById('seqToCanvas_type'),outputIndex=0,
+		OUTPUT=(txt)=>{
+			//=== output type: 'Line', output index 0 ===
+			if(!(outputIndex!=0)){
+				seqToCanvas.fromText(cId,txt);
+			}
+			//=== output type: 'Arc', output index 1 ===
+			if(!(outputIndex!=1)){
+				seqToCanvas_arc.fromText(cId,txt);
+			}
+		};
 	//
 	//form event
 	slf.getElementById('seqToCanvasForm').addEventListener('change',()=>{
@@ -20,11 +31,8 @@
 		C.width=slf.getElementById('cWidth').value;
 		C.height=slf.getElementById('cHeight').value;
 		//
-		seqToCanvas.fromText(cId,text);
+		OUTPUT(text);
 	},false);
-	//
-	//capturing canvas
-	slf.getElementById('captureB').addEventListener('click',SS,false);
 	//
 	//clearing text input
 	slf.getElementById('clearB').addEventListener('click',()=>{
@@ -32,4 +40,28 @@
 		C.width=slf.getElementById('cWidth').value;
 		C.height=slf.getElementById('cHeight').value;
 	},false);
+	//
+	//changing output type
+	slf.getElementById('changeB').addEventListener('click',()=>{
+		//
+		//output types
+		let typeList=['Line','Arc'],L=0,idx=(+outputIndex)+1;
+		//
+		L=typeList.length;
+		//
+		idx=idx<L?idx:0;
+		outputIndex=idx;
+		outputType.textContent=typeList[idx];
+		//
+		text=slf.getElementById('textInput').value;
+		text=!text?'\x00':text;
+		//
+		C.width=slf.getElementById('cWidth').value;
+		C.height=slf.getElementById('cHeight').value;
+		//
+		OUTPUT(text);
+	},false);
+	//
+	//capturing canvas
+	slf.getElementById('captureB').addEventListener('click',SS,false);
 })();
