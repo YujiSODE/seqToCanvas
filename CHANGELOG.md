@@ -3,6 +3,10 @@
 
 ## [2.0 beta] - 2021-02-19
 ## Changed
+- [`index_main.js`] line 34:  
+  Changes to use 2 or more codes to draw  
+  >` 		OUTPUT(text);`
+
 - [`index_main.js`] lines 11-23:  
   Changes to use 2 or more codes to draw  
   >` 	let slf=window.document,cId='outputCvs',C=slf.getElementById(cId),`  
