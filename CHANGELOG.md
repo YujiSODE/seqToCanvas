@@ -2,6 +2,9 @@
 ## [Unreleased]
 
 ## [2.0 beta] - 2021-02-19
+## Removed
+- [`index_arc.html`]
+
 ## Changed
 - [`index_main.js`] lines 43-63:  
   Changes to use 2 or more codes to draw  
