@@ -1,6 +1,11 @@
 # Change Log 
 ## [Unreleased]
 
+## [2.0 beta] - 2021-02-19
+## Added
+- [`index.html`] lines 26:
+  >` 		<script type='text/javascript' src='seqToCanvas_arc.js'></script>`
+
 ## [2.0 beta] - 2021-02-18
 # Fixed
 - [`algorithm.md`] lines 28-29:
