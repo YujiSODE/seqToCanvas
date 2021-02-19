@@ -3,6 +3,30 @@
 
 ## [2.0 beta] - 2021-02-19
 ## Changed
+- [`index_main.js`] lines 43-63:  
+  Changes to use 2 or more codes to draw  
+  >` 	//`  
+  >` 	//changing output type`  
+  >` 	slf.getElementById('changeB').addEventListener('click',()=>{`  
+  >` 		//`  
+  >` 		//output types`  
+  >` 		let typeList=['Line','Arc'],L=0,idx=(+outputIndex)+1;`  
+  >` 		//`  
+  >` 		L=typeList.length;`  
+  >` 		//`  
+  >` 		idx=idx<L?idx:0;`  
+  >` 		outputIndex=idx;`  
+  >` 		outputType.textContent=typeList[idx];`  
+  >` 		//`  
+  >` 		text=slf.getElementById('textInput').value;`  
+  >` 		text=!text?'\x00':text;`  
+  >` 		//`  
+  >` 		C.width=slf.getElementById('cWidth').value;`  
+  >` 		C.height=slf.getElementById('cHeight').value;`  
+  >` 		//`  
+  >` 		OUTPUT(text);`  
+  >` 	},false);`
+
 - [`index_main.js`] line 34:  
   Changes to use 2 or more codes to draw  
   >` 		OUTPUT(text);`
