@@ -3,11 +3,29 @@
 
 ## [2.0 beta] - 2021-02-19
 ## Changed
-- [`index.html`] lines 57-58:
+- [`index_main.js`] lines 11-23:  
+  Changes to use 2 or more codes to draw  
+  >` 	let slf=window.document,cId='outputCvs',C=slf.getElementById(cId),`  
+  >` 		SS=capturingCanvas(C,slf.getElementById('downloadDiv')),text='',`  
+  >` 		outputType=slf.getElementById('seqToCanvas_type'),outputIndex=0,`  
+  >` 		OUTPUT=(txt)=>{`  
+  >` 			//=== output type: 'Line', output index 0 ===`  
+  >` 			if(!(outputIndex!=0)){`  
+  >` 				seqToCanvas.fromText(cId,txt);`  
+  >` 			}`  
+  >` 			//=== output type: 'Arc', output index 1 ===`  
+  >` 			if(!(outputIndex!=1)){`  
+  >` 				seqToCanvas_arc.fromText(cId,txt);`  
+  >` 			}`  
+  >` 		};`
+
+- [`index.html`] lines 57-58:  
+  Changes to use 2 or more codes to draw  
   >` 		<!-- button to change output type -->`  
   >` 		<button id='changeB'>Change output type</button>`
 
-- [`index.html`] line 29:
+- [`index.html`] line 29:  
+  Changes to use 2 or more codes to draw  
   >` 		<h1>seqToCanvas [type:<code id='seqToCanvas_type'>Line</code>]</h1>`
 
 ## Added
