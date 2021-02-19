@@ -3,6 +3,7 @@
 
 ## [2.0 beta] - 2021-02-19
 ## Removed
+- [`index_main_arc.js`]
 - [`index_arc.html`]
 
 ## Changed
