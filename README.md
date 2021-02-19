@@ -17,6 +17,7 @@ These methods take the form of function: `f(e1, e2, e3, e4)` where `f, e1, e2, e
 
 ## 2. Script
 - [`seqToCanvas.js`](seqToCanvas.js)
+- [v2.0 beta+][`seqToCanvas_arc.js`](seqToCanvas_arc.js)
 
 ### Additional HTML interface
 - `index.html`
