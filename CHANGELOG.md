@@ -2,6 +2,10 @@
 ## [Unreleased]
 
 ## [2.0 beta] - 2021-02-19
+## Added
+- [`README.md`] line 20:
+  >` - [v2.0 beta+][`seqToCanvas_arc.js`](seqToCanvas_arc.js)`
+
 ## Removed
 - [`index_main_arc.js`]
 - [`index_arc.html`]
