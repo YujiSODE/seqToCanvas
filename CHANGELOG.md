@@ -2,6 +2,10 @@
 ## [Unreleased]
 
 ## [2.0 beta] - 2021-02-19
+## Changed
+- [`index.html`] lines 29:
+  >` 		<h1>seqToCanvas [type:<code id='seqToCanvas_type'>Line</code>]</h1>`
+
 ## Added
 - [`index.html`] lines 26:
   >` 		<script type='text/javascript' src='seqToCanvas_arc.js'></script>`
