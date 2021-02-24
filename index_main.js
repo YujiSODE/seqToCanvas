@@ -45,9 +45,7 @@
 	slf.getElementById('changeB').addEventListener('click',()=>{
 		//
 		//output types
-		let typeList=['Line','Arc'],L=0,idx=(+outputIndex)+1;
-		//
-		L=typeList.length;
+		let typeList=['Line','Arc'],L=typeList.length,idx=(+outputIndex)+1;
 		//
 		idx=idx<L?idx:0;
 		outputIndex=idx;
