@@ -1,6 +1,11 @@
 # Change Log 
 ## [Unreleased]
 
+## [2.01] - 2021-02-24
+## Changed
+- [`index_main.js`] line 48:
+  >` 		let typeList=['Line','Arc'],L=typeList.length,idx=(+outputIndex)+1;`
+
 ## Released: [2.0 beta] - 2021-02-20
 ## [2.0 beta] - 2021-02-19
 ## Added
