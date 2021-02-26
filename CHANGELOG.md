@@ -1,6 +1,7 @@
 # Change Log 
 ## [Unreleased]
 
+## Released: [2.01] - 2021-02-26
 ## [2.01] - 2021-02-26
 ## Added
 - [`algorithm.md`] line 15:
