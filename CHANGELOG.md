@@ -2,6 +2,10 @@
 ## [Unreleased]
 
 ## [2.01] - 2021-02-26
+## Added
+- [`algorithm.md`] line 15:
+  ><code>[`v2.0 beta+`]  </code>
+
 ## Changed
 - [`algorithm.md`] line 14:
   ><code>### 2) Cascading arc paths `seqToCanvas_arc.js`</code>
