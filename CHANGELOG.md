@@ -1,6 +1,11 @@
 # Change Log 
 ## [Unreleased]
 
+## [2.01] - 2021-02-26
+## Changed
+- [`algorithm.md`] line 5:
+  ><code>### 1) Linear paths: `seqToCanvas.js`</code>
+
 ## [2.01] - 2021-02-24
 ## Changed
 - [`index_main.js`] line 48:
