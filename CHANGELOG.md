@@ -3,9 +3,9 @@
 
 ## [2.01] - 2021-02-26
 ## Changed
-- [`algorithm.md`] line 5:
-  ><code>### 2) Cascading arc paths `seqToCanvas_arc.js`</code>
 - [`algorithm.md`] line 14:
+  ><code>### 2) Cascading arc paths `seqToCanvas_arc.js`</code>
+- [`algorithm.md`] line 5:
   ><code>### 1) Linear paths: `seqToCanvas.js`</code>
 
 ## [2.01] - 2021-02-24
