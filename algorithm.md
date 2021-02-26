@@ -12,6 +12,7 @@ These three linear patterns have five ways to draw as follows:
 5. To draw from `(x0, y0)` to `(x0-dx, y0-dy)` where `dx` and `dy` are defined by `e1, e2, e3` and `e4`
 ___
 ### 2) Cascading arc paths `seqToCanvas_arc.js`
+[`v2.0 beta+`]  
 16 methods are divided into two patterns: arc path patterns and areal one.
 
 #### arc path
