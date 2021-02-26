@@ -2,6 +2,10 @@
 ## [Unreleased]
 
 ## [3.0 beta] - 2021-02-26
+## Changed
+- [`index_main.js`] line 52:
+  >`		let typeList=['Line','Arc','Dot'],L=typeList.length,idx=(+outputIndex)+1;`
+
 ## Added
 - [`index_main.js`] lines 23-26:
   >`			//=== output type: 'Dot', output index 2 ===`  
