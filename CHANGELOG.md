@@ -1,6 +1,23 @@
 # Change Log 
 ## [Unreleased]
 
+## Released: [2.01] - 2021-02-26
+## [2.01] - 2021-02-26
+## Added
+- [`algorithm.md`] line 15:
+  ><code>[`v2.0 beta+`]  </code>
+
+## Changed
+- [`algorithm.md`] line 14:
+  ><code>### 2) Cascading arc paths `seqToCanvas_arc.js`</code>
+- [`algorithm.md`] line 5:
+  ><code>### 1) Linear paths: `seqToCanvas.js`</code>
+
+## [2.01] - 2021-02-24
+## Changed
+- [`index_main.js`] line 48:
+  >` 		let typeList=['Line','Arc'],L=typeList.length,idx=(+outputIndex)+1;`
+
 ## Released: [2.0 beta] - 2021-02-20
 ## [2.0 beta] - 2021-02-19
 ## Added
