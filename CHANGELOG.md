@@ -3,6 +3,11 @@
 
 ## [3.0 beta] - 2021-02-26
 ## Added
+- [`index_main.js`] lines 23-26:
+  >`			//=== output type: 'Dot', output index 2 ===`  
+  >`			if(!(outputIndex!=2)){`  
+  >`				seqToCanvas_dot.fromText(cId,txt);`  
+  >`			}`
 - [`index.html`] line 27:
   >`		<script type='text/javascript' src='seqToCanvas_dot.js'></script>`
 
