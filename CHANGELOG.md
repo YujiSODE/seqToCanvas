@@ -1,6 +1,23 @@
 # Change Log 
 ## [Unreleased]
 
+## [3.0 beta] - 2021-02-26
+## Added
+- [`seqToCanvas_dot.js`]
+
+## Changed
+- [`index_main.js`] line 52:
+  >`		let typeList=['Line','Arc','Dot'],L=typeList.length,idx=(+outputIndex)+1;`
+
+## Added
+- [`index_main.js`] lines 23-26:
+  >`			//=== output type: 'Dot', output index 2 ===`  
+  >`			if(!(outputIndex!=2)){`  
+  >`				seqToCanvas_dot.fromText(cId,txt);`  
+  >`			}`
+- [`index.html`] line 27:
+  >`		<script type='text/javascript' src='seqToCanvas_dot.js'></script>`
+
 ## Released: [2.01] - 2021-02-26
 ## [2.01] - 2021-02-26
 ## Added
