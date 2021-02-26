@@ -1,6 +1,11 @@
 # Change Log 
 ## [Unreleased]
 
+## [3.0 beta] - 2021-02-26
+## Added
+- [`index.html`] line 27:
+  >`		<script type='text/javascript' src='seqToCanvas_dot.js'></script>`
+
 ## Released: [2.01] - 2021-02-26
 ## [2.01] - 2021-02-26
 ## Added
