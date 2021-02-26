@@ -2,6 +2,9 @@
 ## [Unreleased]
 
 ## [3.0 beta] - 2021-02-26
+## Added
+- [`seqToCanvas_dot.js`]
+
 ## Changed
 - [`index_main.js`] line 52:
   >`		let typeList=['Line','Arc','Dot'],L=typeList.length,idx=(+outputIndex)+1;`
