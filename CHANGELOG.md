@@ -3,6 +3,21 @@
 
 ## [3.0 beta] - 2021-02-27
 ## Changed
+- [`seqToCanvas_dot.js`] line 109:
+  >`		//dot: dotted line size is constant`
+
+## Added
+- [`seqToCanvas_dot.js`] line 100-107:
+  >`	//function that returns half width of a dotted line path based on cosine value`  
+  >`	cosF=(w,theta)=>{`  
+  >`		// - w: width`  
+  >`		// - theta: angle in radians`  
+  >`		return (1.0+Math.cos(+theta))*w/2;`  
+  >`	};`  
+  >`	//-------------------------------------------------------`  
+  >`	//`
+
+## Changed
 - [`seqToCanvas_dot.js`] line 73-75:
   >`		// - x0 and y0: relative midpoint coordinates of a dotted line path`  
   >`		// - w50: half width of a dotted line path in pixels`  
