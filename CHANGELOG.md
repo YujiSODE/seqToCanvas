@@ -2,6 +2,11 @@
 ## [Unreleased]
 
 ## [3.0 beta] - 2021-02-27
+## Changed
+- [`seqToCanvas_dot.js`] line 73-75:
+  >`		// - x0 and y0: relative midpoint coordinates of a dotted line path`  
+  >`		// - w50: half width of a dotted line path in pixels`  
+  >`		//     *definition*: w50 = (line length -1)/2`
 
 ## Added
 - [`seqToCanvas_dot.js`] line 52-53:
