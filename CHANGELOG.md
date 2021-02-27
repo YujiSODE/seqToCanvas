@@ -1,6 +1,18 @@
 # Change Log 
 ## [Unreleased]
 
+## [3.0 beta] - 2021-02-27
+
+## Added
+- [`seqToCanvas_dot.js`] line 52-53:
+  >`		/* function that returns half width of a dotted line path based on cosine value */`  
+  >`		cosF=()=>{},`
+
+- [`seqToCanvas_dot.js`] lines 47-51: `PI` values (`PI to PI/16`)
+
+- [`seqToCanvas_dot.js`] line 45:
+  >`		/* half width of dotted line */`
+
 ## [3.0 beta] - 2021-02-26
 ## Added
 - [`seqToCanvas_dot.js`]
