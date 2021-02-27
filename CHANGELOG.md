@@ -3,6 +3,13 @@
 
 ## [3.0 beta] - 2021-02-27
 ## Changed
+- [`seqToCanvas_dot.js`] line 262:
+  >`			dottedLine(x0+i*dx/N,y0+i*dy/N,cosF(dtl50W,i*PI5));`
+
+## Removed
+- [`seqToCanvas_dot.js`] line 226
+
+## Changed
 - [`seqToCanvas_dot.js`] line 235:
   >`			dottedLine(x0+i*dx/N,y0+i*dy/N,cosF(dtl50W,i*PI4));`
 
