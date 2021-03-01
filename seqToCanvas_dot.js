@@ -49,8 +49,8 @@ function seqToCanvas_dot(srcCanvasId,seq){
 		PI5=PI/5.0,PI6=PI/6,PI7=PI/7,PI8=PI/8,
 		PI9=PI/9,PI10=PI/10,PI11=PI/11,PI12=PI/12,
 		PI13=PI/13,PI14=PI/14,PI15=PI/15,
-		/* function that returns half width of a dotted line path based on cosine value */
-		cosF=()=>{},
+		/* function that returns half width of a dotted line path based on sine value */
+		sinF=()=>{},
 		/* === methods group: G === */
 		G={
 			0:()=>{},1:()=>{},2:()=>{},3:()=>{},4:()=>{},
@@ -97,11 +97,11 @@ function seqToCanvas_dot(srcCanvasId,seq){
 	};
 	//-------------------------------------------------------
 	//
-	//function that returns half width of a dotted line path based on cosine value
-	cosF=(w,theta)=>{
+	//function that returns half width of a dotted line path based on sine value
+	sinF=(w,theta)=>{
 		// - w: width
 		// - theta: angle in radians
-		return (1.0+Math.cos(+theta))*w/2;
+		return (1.0+Math.sin(+theta))*w/2;
 	};
 	//-------------------------------------------------------
 	//
@@ -151,7 +151,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 		ctx.fillStyle=`#11${e1}${e2}${e3}${e4}`;
 		//
 		while(i<N){
-			dottedLine(x0+i*dx/N,y0+i*dy/N,cosF(dtl50W,i*PI));
+			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI));
 			i+=1;
 		}
 		//
@@ -178,7 +178,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 		ctx.fillStyle=`#22${e1}${e2}${e3}${e4}`;
 		//
 		while(i<N){
-			dottedLine(x0+i*dx/N,y0+i*dy/N,cosF(dtl50W,i*PI2));
+			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI2));
 			i+=1;
 		}
 		//
@@ -205,7 +205,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 		ctx.fillStyle=`#33${e1}${e2}${e3}${e4}`;
 		//
 		while(i<N){
-			dottedLine(x0+i*dx/N,y0+i*dy/N,cosF(dtl50W,i*PI3));
+			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI3));
 			i+=1;
 		}
 		//
@@ -232,7 +232,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 		ctx.fillStyle=`#44${e1}${e2}${e3}${e4}`;
 		//
 		while(i<N){
-			dottedLine(x0+i*dx/N,y0+i*dy/N,cosF(dtl50W,i*PI4));
+			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI4));
 			i+=1;
 		}
 		//
@@ -259,7 +259,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 		ctx.fillStyle=`#55${e1}${e2}${e3}${e4}`;
 		//
 		while(i<N){
-			dottedLine(x0+i*dx/N,y0+i*dy/N,cosF(dtl50W,i*PI5));
+			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI5));
 			i+=1;
 		}
 		//
@@ -286,7 +286,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 		ctx.fillStyle=`#66${e1}${e2}${e3}${e4}`;
 		//
 		while(i<N){
-			dottedLine(x0+i*dx/N,y0+i*dy/N,cosF(dtl50W,i*PI6));
+			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI6));
 			i+=1;
 		}
 		//
@@ -313,7 +313,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 		ctx.fillStyle=`#77${e1}${e2}${e3}${e4}`;
 		//
 		while(i<N){
-			dottedLine(x0+i*dx/N,y0+i*dy/N,cosF(dtl50W,i*PI7));
+			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI7));
 			i+=1;
 		}
 		//
@@ -340,7 +340,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 		ctx.fillStyle=`#88${e1}${e2}${e3}${e4}`;
 		//
 		while(i<N){
-			dottedLine(x0+i*dx/N,y0+i*dy/N,cosF(dtl50W,i*PI8));
+			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI8));
 			i+=1;
 		}
 		//
@@ -367,7 +367,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 		ctx.fillStyle=`#99${e1}${e2}${e3}${e4}`;
 		//
 		while(i<N){
-			dottedLine(x0+i*dx/N,y0+i*dy/N,cosF(dtl50W,i*PI9));
+			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI9));
 			i+=1;
 		}
 		//
@@ -394,7 +394,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 		ctx.fillStyle=`#aa${e1}${e2}${e3}${e4}`;
 		//
 		while(i<N){
-			dottedLine(x0+i*dx/N,y0+i*dy/N,cosF(dtl50W,i*PI10));
+			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI10));
 			i+=1;
 		}
 		//
@@ -421,7 +421,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 		ctx.fillStyle=`#bb${e1}${e2}${e3}${e4}`;
 		//
 		while(i<N){
-			dottedLine(x0+i*dx/N,y0+i*dy/N,cosF(dtl50W,i*PI11));
+			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI11));
 			i+=1;
 		}
 		//
@@ -448,7 +448,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 		ctx.fillStyle=`#cc${e1}${e2}${e3}${e4}`;
 		//
 		while(i<N){
-			dottedLine(x0+i*dx/N,y0+i*dy/N,cosF(dtl50W,i*PI12));
+			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI12));
 			i+=1;
 		}
 		//
@@ -475,7 +475,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 		ctx.fillStyle=`#dd${e1}${e2}${e3}${e4}`;
 		//
 		while(i<N){
-			dottedLine(x0+i*dx/N,y0+i*dy/N,cosF(dtl50W,i*PI13));
+			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI13));
 			i+=1;
 		}
 		//
@@ -502,7 +502,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 		ctx.fillStyle=`#ee${e1}${e2}${e3}${e4}`;
 		//
 		while(i<N){
-			dottedLine(x0+i*dx/N,y0+i*dy/N,cosF(dtl50W,i*PI14));
+			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI14));
 			i+=1;
 		}
 		//
@@ -529,7 +529,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 		ctx.fillStyle=`#ff${e1}${e2}${e3}${e4}`;
 		//
 		while(i<N){
-			dottedLine(x0+i*dx/N,y0+i*dy/N,cosF(dtl50W,i*PI15));
+			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI15));
 			i+=1;
 		}
 		//
@@ -557,7 +557,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 		L=arr.length
 	}
 	//
-	slf=ctx=W=H=dW=dH=X0=Y0=el0=el1=el2=el3=el4=arr=L=L0=L0_mid=L0_25=L0_75=dottedLine=dtl50W=PI=PI2=PI3=PI4=PI5=PI6=PI7=PI8=PI9=PI10=PI11=PI12=PI13=PI14=PI15=cosF=G=null;
+	slf=ctx=W=H=dW=dH=X0=Y0=el0=el1=el2=el3=el4=arr=L=L0=L0_mid=L0_25=L0_75=dottedLine=dtl50W=PI=PI2=PI3=PI4=PI5=PI6=PI7=PI8=PI9=PI10=PI11=PI12=PI13=PI14=PI15=sinF=G=null;
 };
 //
 //it converts string into canvas image
