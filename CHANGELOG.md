@@ -1,6 +1,67 @@
 # Change Log 
 ## [Unreleased]
 
+## [3.0 beta] - 2021-03-01
+## Changed
+- [`seqToCanvas_dot.js`] line 560:
+  >` 	slf=ctx=W=H=dW=dH=X0=Y0=el0=el1=el2=el3=el4=arr=L=L0=L0_mid=L0_25=L0_75=dottedLine=dtl50W=PI=PI2=PI3=PI4=PI5=PI6=PI7=PI8=PI9=PI10=PI11=PI12=PI13=PI14=PI15=sinF=G=null;`
+
+- [`seqToCanvas_dot.js`] line 532:
+  >`			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI15));`
+
+- [`seqToCanvas_dot.js`] line 505:
+  >`			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI14));`
+
+- [`seqToCanvas_dot.js`] line 478:
+  >`			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI13));`
+
+- [`seqToCanvas_dot.js`] line 451:
+  >`			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI12));`
+
+- [`seqToCanvas_dot.js`] line 424:
+  >`			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI11));`
+
+- [`seqToCanvas_dot.js`] line 397:
+  >`			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI10));`
+
+- [`seqToCanvas_dot.js`] line 370:
+  >`			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI9));`
+
+- [`seqToCanvas_dot.js`] line 343:
+  >`			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI8));`
+
+- [`seqToCanvas_dot.js`] line 316:
+  >`			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI7));`
+
+- [`seqToCanvas_dot.js`] line 289:
+  >`			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI6));`
+
+- [`seqToCanvas_dot.js`] line 262:
+  >`			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI5));`
+
+- [`seqToCanvas_dot.js`] line 235:
+  >`			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI4));`
+
+- [`seqToCanvas_dot.js`] line 208:
+  >`			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI3));`
+
+- [`seqToCanvas_dot.js`] line 181:
+  >`			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI2));`
+
+- [`seqToCanvas_dot.js`] line 154:
+  >`			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI));`
+
+- [`seqToCanvas_dot.js`] line 104:
+  >`		return (1.0+Math.sin(+theta))*w/2;`
+
+- [`seqToCanvas_dot.js`] lines 100-101:
+  >`	//function that returns half width of a dotted line path based on sine value`  
+  >`	sinF=(w,theta)=>{`
+
+- [`seqToCanvas_dot.js`] lines 52-53:
+  >`		/* function that returns half width of a dotted line path based on sine value */`  
+  >`		sinF=()=>{},`
+
 ## [3.0 beta] - 2021-02-27
 ## Changed
 - [`seqToCanvas_dot.js`] line 560:
