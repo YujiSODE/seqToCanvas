@@ -3,6 +3,9 @@
 
 ## [3.0 beta] - 2021-03-01
 ## Changed
+- [`seqToCanvas_dot.js`] line 560:
+  >` 	slf=ctx=W=H=dW=dH=X0=Y0=el0=el1=el2=el3=el4=arr=L=L0=L0_mid=L0_25=L0_75=dottedLine=dtl50W=PI=PI2=PI3=PI4=PI5=PI6=PI7=PI8=PI9=PI10=PI11=PI12=PI13=PI14=PI15=sinF=G=null;`
+
 - [`seqToCanvas_dot.js`] line 532:
   >`			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI15));`
 
