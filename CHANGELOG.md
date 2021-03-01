@@ -3,6 +3,9 @@
 
 ## [3.0 beta] - 2021-02-27
 ## Changed
+- [`seqToCanvas_dot.js`] line 104:
+  >`		return (1.0+Math.sin(+theta))*w/2;`
+
 - [`seqToCanvas_dot.js`] lines 100-101:
   >`	//function that returns half width of a dotted line path based on sine value`  
   >`	sinF=(w,theta)=>{`
