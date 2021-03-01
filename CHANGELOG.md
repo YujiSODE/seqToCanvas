@@ -1,7 +1,7 @@
 # Change Log 
 ## [Unreleased]
 
-## [3.0 beta] - 2021-02-27
+## [3.0 beta] - 2021-03-01
 ## Changed
 - [`seqToCanvas_dot.js`] line 181:
   >`			dottedLine(x0+i*dx/N,y0+i*dy/N,sinF(dtl50W,i*PI2));`
