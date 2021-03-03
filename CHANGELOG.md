@@ -2,6 +2,10 @@
 ## [Unreleased]
 
 ## [3.0 beta] - 2021-03-03
+## Added
+- [`README.md`] line 21:
+  >`- [v3.0 beta+][`seqToCanvas_dot.js`](seqToCanvas_dot.js)`
+
 ## Changed
 - [`seqToCanvas_dot.js`] lines 137, 164, 191, 218, 245, 272, 299, 326, 353, 380, 407, 434, 461, 488 and 515:
   ><code>		//dot: dotted line size is based on `1+sin(x)`</code>
