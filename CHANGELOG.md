@@ -1,6 +1,7 @@
 # Change Log 
 ## [Unreleased]
 
+## Released: [3.0 beta] - 2021-03-03
 ## [3.0 beta] - 2021-03-03
 ## Changed
 - [`algorithm.md`] line 45:
