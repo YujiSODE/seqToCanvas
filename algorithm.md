@@ -43,5 +43,4 @@ ___
 
 **2. when `f>0`**  
   Dotted line size is based on `1+sin(x*π/f)`.
-
 ___
