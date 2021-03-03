@@ -2,6 +2,14 @@
 ## [Unreleased]
 
 ## [3.0 beta] - 2021-03-03
+## Added
+- [`algorithm.md`] lines 35-39:
+  >``  
+  ><code>### 3) Dotted line path: `seqToCanvas_dot.js`</code>  
+  ><code>[`v3.0 beta+`]  </code>  
+  ><code>16 methods are divided into two patterns: `f=0` or `f>0`.</code>  
+  >`___`
+
 ## Changed
 - [`algorithm.md`] lines 4-5 and 14-15: added newline;
   >`___`  
