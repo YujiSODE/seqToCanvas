@@ -2,6 +2,11 @@
 ## [Unreleased]
 
 ## [3.0 beta] - 2021-03-03
+## Changed
+- [`algorithm.md`] lines 4-5 and 14-15: added newline;
+  >`___`  
+  >``
+
 ## Added
 - [`README.md`] line 21:
   >`- [v3.0 beta+][`seqToCanvas_dot.js`](seqToCanvas_dot.js)`
