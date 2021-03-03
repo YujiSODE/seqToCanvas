@@ -1,6 +1,11 @@
 # Change Log 
 ## [Unreleased]
 
+## [3.0 beta] - 2021-03-03
+## Changed
+- [`seqToCanvas_dot.js`] lines :
+  ><code>		//dot: dotted line size is based on `1+sin(x)`</code>
+
 ## [3.0 beta] - 2021-03-01
 ## Changed
 - [`seqToCanvas_dot.js`] line 560:
