@@ -3,6 +3,9 @@
 
 ## [3.0 beta] - 2021-03-03
 ## Changed
+- [`algorithm.md`] line 45:
+  ><code>  Dotted line size is based on `1+sin(x*π/f)`.</code>
+
 - [`algorithm.md`] lines 38-46:
   >`16 methods are divided into two patterns: `f=0` or `f>0`.  `  
   ><code>`f(e1, e2, e3, e4)` draws dotted line from `(e1, e2)` to `(e3, e4)`.</code>  
