@@ -20,6 +20,10 @@
 			if(!(outputIndex!=1)){
 				seqToCanvas_arc.fromText(cId,txt);
 			}
+			//=== output type: 'Dot', output index 2 ===
+			if(!(outputIndex!=2)){
+				seqToCanvas_dot.fromText(cId,txt);
+			}
 		};
 	//
 	//form event
@@ -45,7 +49,7 @@
 	slf.getElementById('changeB').addEventListener('click',()=>{
 		//
 		//output types
-		let typeList=['Line','Arc'],L=typeList.length,idx=(+outputIndex)+1;
+		let typeList=['Line','Arc','Dot'],L=typeList.length,idx=(+outputIndex)+1;
 		//
 		idx=idx<L?idx:0;
 		outputIndex=idx;
