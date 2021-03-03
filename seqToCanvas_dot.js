@@ -134,7 +134,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 	//-------------------------------------------------------
 	//
 	G[1]=(e1,e2,e3,e4)=>{
-		//dot
+		//dot: dotted line size is based on `1+sin(x)`
 		//(e1,e2) -> (e3,e4)
 		//
 		let E1=+parseInt(e1,16),
@@ -161,7 +161,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 	};
 	//
 	G[2]=(e1,e2,e3,e4)=>{
-		//dot
+		//dot: dotted line size is based on `1+sin(x)`
 		//(e1,e2) -> (e3,e4)
 		//
 		let E1=+parseInt(e1,16),
@@ -188,7 +188,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 	};
 	//
 	G[3]=(e1,e2,e3,e4)=>{
-		//dot
+		//dot: dotted line size is based on `1+sin(x)`
 		//(e1,e2) -> (e3,e4)
 		//
 		let E1=+parseInt(e1,16),
@@ -215,7 +215,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 	};
 	//
 	G[4]=(e1,e2,e3,e4)=>{
-		//dot
+		//dot: dotted line size is based on `1+sin(x)`
 		//(e1,e2) -> (e3,e4)
 		//
 		let E1=+parseInt(e1,16),
@@ -242,7 +242,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 	};
 	//
 	G[5]=(e1,e2,e3,e4)=>{
-		//dot
+		//dot: dotted line size is based on `1+sin(x)`
 		//(e1,e2) -> (e3,e4)
 		//
 		let E1=+parseInt(e1,16),
@@ -269,7 +269,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 	};
 	//
 	G[6]=(e1,e2,e3,e4)=>{
-		//dot
+		//dot: dotted line size is based on `1+sin(x)`
 		//(e1,e2) -> (e3,e4)
 		//
 		let E1=+parseInt(e1,16),
@@ -296,7 +296,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 	};
 	//
 	G[7]=(e1,e2,e3,e4)=>{
-		//dot
+		//dot: dotted line size is based on `1+sin(x)`
 		//(e1,e2) -> (e3,e4)
 		//
 		let E1=+parseInt(e1,16),
@@ -323,7 +323,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 	};
 	//
 	G[8]=(e1,e2,e3,e4)=>{
-		//dot
+		//dot: dotted line size is based on `1+sin(x)`
 		//(e1,e2) -> (e3,e4)
 		//
 		let E1=+parseInt(e1,16),
@@ -350,7 +350,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 	};
 	//
 	G[9]=(e1,e2,e3,e4)=>{
-		//dot
+		//dot: dotted line size is based on `1+sin(x)`
 		//(e1,e2) -> (e3,e4)
 		//
 		let E1=+parseInt(e1,16),
@@ -377,7 +377,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 	};
 	//
 	G['a']=(e1,e2,e3,e4)=>{
-		//dot
+		//dot: dotted line size is based on `1+sin(x)`
 		//(e1,e2) -> (e3,e4)
 		//
 		let E1=+parseInt(e1,16),
@@ -404,7 +404,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 	};
 	//
 	G['b']=(e1,e2,e3,e4)=>{
-		//dot
+		//dot: dotted line size is based on `1+sin(x)`
 		//(e1,e2) -> (e3,e4)
 		//
 		let E1=+parseInt(e1,16),
@@ -431,7 +431,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 	};
 	//
 	G['c']=(e1,e2,e3,e4)=>{
-		//dot
+		//dot: dotted line size is based on `1+sin(x)`
 		//(e1,e2) -> (e3,e4)
 		//
 		let E1=+parseInt(e1,16),
@@ -458,7 +458,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 	};
 	//
 	G['d']=(e1,e2,e3,e4)=>{
-		//dot
+		//dot: dotted line size is based on `1+sin(x)`
 		//(e1,e2) -> (e3,e4)
 		//
 		let E1=+parseInt(e1,16),
@@ -485,7 +485,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 	};
 	//
 	G['e']=(e1,e2,e3,e4)=>{
-		//dot
+		//dot: dotted line size is based on `1+sin(x)`
 		//(e1,e2) -> (e3,e4)
 		//
 		let E1=+parseInt(e1,16),
@@ -512,7 +512,7 @@ function seqToCanvas_dot(srcCanvasId,seq){
 	};
 	//
 	G['f']=(e1,e2,e3,e4)=>{
-		//dot
+		//dot: dotted line size is based on `1+sin(x)`
 		//(e1,e2) -> (e3,e4)
 		//
 		let E1=+parseInt(e1,16),
