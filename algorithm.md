@@ -24,10 +24,10 @@ A single arc path is defined as follows:
 3. radius: `r = (e1+e2+e3+e4)/8`
 
 Arc path patterns have two ways to draw as follows:  
-1. **when there is no path**  
+**1. when there is no path**  
     It starts a new arc path.  
     
-2. **when there is opened path**  
+**2. when there is opened path**  
     If it satisfies condition `f0<f||!(f0%(f+1)!=0)`, it closes the current path.  
     `f` is the current method which is called after methhod `f0`.  
     If it doesn't satisfies above condition, it adds a arc path to the current path.
@@ -35,5 +35,12 @@ ___
 
 ### 3) Dotted line path: `seqToCanvas_dot.js`
 [`v3.0 beta+`]  
-16 methods are divided into two patterns: `f=0` or `f>0`.
+16 methods are divided into two patterns: `f=0` or `f>0`.  
+`f(e1, e2, e3, e4)` draws dotted line from `(e1, e2)` to `(e3, e4)`.
+
+**1. when `f=0`**  
+  Dotted line size is constant.
+
+**2. when `f>0`**  
+  Dotted line size is based on `1+sin(x*π/f)`.
 ___
