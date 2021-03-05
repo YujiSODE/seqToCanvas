@@ -1,7 +1,7 @@
 # Change Log 
 ## [Unreleased]
 
-## [3.01] - 2021-03-24
+## [3.01] - 2021-03-05
 ## Fixed
 - [`algorithm.md`] line 36:
   ><code>### 3) Dotted line paths: `seqToCanvas_dot.js`</code>
