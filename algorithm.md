@@ -33,7 +33,7 @@ Arc path patterns have two ways to draw as follows:
     If it doesn't satisfies above condition, it adds a arc path to the current path.
 ___
 
-### 3) Dotted line path: `seqToCanvas_dot.js`
+### 3) Dotted line paths: `seqToCanvas_dot.js`
 [`v3.0 beta+`]  
 16 methods are divided into two patterns: `f=0` or `f>0`.  
 `f(e1, e2, e3, e4)` draws dotted line from `(e1, e2)` to `(e3, e4)`.
