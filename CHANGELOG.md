@@ -1,6 +1,12 @@
 # Change Log 
 ## [Unreleased]
 
+## Released: [3.01] - 2021-03-11
+## [3.01] - 2021-03-05
+## Fixed
+- [`algorithm.md`] line 36:
+  ><code>### 3) Dotted line paths: `seqToCanvas_dot.js`</code>
+
 ## Released: [3.0 beta] - 2021-03-03
 ## [3.0 beta] - 2021-03-03
 ## Changed
@@ -348,7 +354,7 @@
 - [`README.md`] line 4:
   >`Wiki: https://github.com/YujiSODE/seqToCanvas/wiki  `
 
-## Released: [0.11 beta] - 2021-02-07
+## Released: [0.11 beta] - 2021-02-05
 ## [0.11 beta] - 2021-02-06
 ## Added
 - [`README.md`] line 8:
