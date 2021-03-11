@@ -1,6 +1,7 @@
 # Change Log 
 ## [Unreleased]
 
+## Released: [3.01] - 2021-03-11
 ## [3.01] - 2021-03-05
 ## Fixed
 - [`algorithm.md`] line 36:
